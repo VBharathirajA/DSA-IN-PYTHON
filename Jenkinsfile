@@ -17,10 +17,6 @@ pipeline{
                 echo " deploying"
             }
         }
-        stage('Email'){
-            steps{
-                mail bcc: '', body: 'i am aspiring cloud enginner with deep focus on aws, devops, python automatio. i recently developed python script using boto3 api to automate aws services like ec2 instance.', cc: '', from: '', replyTo: '', subject: 'application', to: 'bharathirajavishnudevan@gmail.com'
-            }
-        }
+      
     }
 }
