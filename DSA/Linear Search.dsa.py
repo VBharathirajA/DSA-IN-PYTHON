@@ -1,6 +1,7 @@
 ar=[1,2,3,4,5,6]
 
-target=int(input("Enter Target Number:"))
+target = int(sys.argv[1])
+print("Target Number:", target)
 
 for i in range (0, len(ar)):
     if ar[i]==target:
