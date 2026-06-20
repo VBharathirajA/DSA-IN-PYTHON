@@ -1,3 +1,4 @@
+import sys
 ar=[1,2,3,4,5,6]
 
 target = int(sys.argv[1])
