@@ -1,4 +1,4 @@
-
+import sys
 def binary_search(arr,target):
     low=0
     high=len(arr)-1
@@ -16,4 +16,5 @@ def binary_search(arr,target):
         print("Element not found")
             
 arr=[1,4,6,7,8,9,10,45,56,67,89]
-binary_search(arr,45)
+input=int(sys.arvg[1])
+binary_search(arr,input)
