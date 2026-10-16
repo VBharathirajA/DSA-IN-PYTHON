@@ -84,10 +84,6 @@ t=Tree()
 t.add(1)
 t.add(2,1)
 t.add(3,1)
-t.add(4,2)
-t.add(5,4)
-t.add(6,1)
-t.add(7,2)
 t.display(t.root)
 
 
